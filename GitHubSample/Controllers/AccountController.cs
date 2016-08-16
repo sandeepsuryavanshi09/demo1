@@ -15,6 +15,7 @@ namespace GitHubSample.Controllers
     [Authorize]
     public class AccountController : Controller
     {
+        public int age = 0;
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
